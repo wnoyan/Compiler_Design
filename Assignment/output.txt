@@ -1,0 +1,44 @@
+Single Line Comment Found: --header start
+Library Found MyHeader1
+Library Found MyHeader2
+Single Line Comment Found: --header end
+Single Line Comment Found: --main function
+Function Found
+Function Found
+Function Found
+Function Found
+Function Found
+
+
+------------------------------------
+
+Keywords: 7
+number
+method
+loop
+print
+if
+elif
+else
+
+
+Operators: 5
+assign
+<=
++
+==
+!=
+
+
+Punctuations: 3
+`
+:
+;
+
+
+Variables: 5
+    
+    
+    
+    
+    
