@@ -1,0 +1,76 @@
+~"header.h"
+// single line comment
+## multiple line comment ##
+
+
+integer method_main()
+{
+	integer var_x;
+	var_x Assign 10;
+	integer var_a Assign 5;
+	integer var_b Assign var_a;
+	
+	method_PrintString("Variable var_a : ");
+	method_PrintVariable(var_a);
+
+	method_PrintString("Variable var_b : ");
+	method_PrintVariable (var_b);
+
+	If(5 LT 4)
+	{
+		## statements in if block ##
+	}
+	ElseIf(5 GT 4)
+	{
+		## statements in else if block ##
+	}
+	Else
+	{
+		## statements in else block ##
+	}
+
+	Switch(7)
+	{
+		1:
+			{
+				## statements in case 1 block ##
+			}
+		7:
+			{
+				## statements in case 7 block ##
+			}
+
+		default:  
+			{
+				## statements in default block ##
+			}
+	}
+
+	var_x Assign 5 exp 3;
+	method_PrintString("Exponential : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 98 gcd 56;
+	method_PrintString("GCD : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 5 max 10;
+	method_PrintString("Maximum : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 6 Plus 5;
+	method_PrintString("Addition : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 6 Minus 5;
+	method_PrintString("Subtraction : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 10 Divide 2;
+	method_PrintString("Division : ");
+	method_PrintVariable(var_x);
+
+	var_x Assign 6 Multiply 5;
+	method_PrintString("Multiplication : ");
+	method_PrintVariable(var_x);
+}

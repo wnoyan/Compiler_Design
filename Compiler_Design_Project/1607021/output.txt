@@ -1,0 +1,11 @@
+Variable var_a : 5
+Variable var_b : 5
+Else if executed!
+Executed 7 block case!
+Exponential : 125
+GCD : 14
+Maximum : 10
+Addition : 11
+Subtraction : 1
+Division : 5
+Multiplication : 30
